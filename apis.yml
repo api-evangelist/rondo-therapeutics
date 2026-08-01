@@ -1,8 +1,26 @@
 aid: rondo-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rondo-therapeutics.png
 name: Rondo Therapeutics
-description: Rondo Therapeutics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Rondo Therapeutics is a clinical-stage biotechnology company based in Hayward,
+  California, developing immune-cell engaging bispecific antibodies designed to treat solid
+  tumors by unleashing the immune system while maximizing efficacy and minimizing side effects.
+  Founded in 2019 by Shelley Force Aldred and Nathan Trinklein, its pipeline includes RNDO-564
+  (Phase 1 for bladder cancer) plus programs targeting ovarian, endometrial, and renal cancers,
+  backed by a Series A led by Canaan and Red Tree Venture Capital and a collaboration with Eli
+  Lilly. Rondo publishes a corporate and pipeline website but exposes no public developer program,
+  API, or machine-readable API surface; it was surfaced as a portfolio company of canaan-partners
+  and added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/rondo-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Therapeutics
+- Oncology
+- Antibodies
+- Immunotherapy
+- Pharmaceuticals
 apis: []
+common:
+- type: Website
+  url: https://www.rondotx.com
+- type: PrivacyPolicy
+  url: https://www.rondotx.com/privacy-policy
+- type: TermsOfService
+  url: https://www.rondotx.com/terms-and-conditions
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rondotx/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
